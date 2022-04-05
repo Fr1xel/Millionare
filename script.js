@@ -84,9 +84,169 @@ const game = [
     correctAnswer: "Elephant",
   },
   {
-    question: "What sort of animal is Walt Disney's Dumbo?",
-    answers: ["Deer", "Rabbit", "Elephant", "Donkey"],
-    correctAnswer: "Elephant",
+    question: "In the UK, the abbreviation NHS stands for National what Service?",
+    answers: ["Humanity", "Health", "Honour", "Household"],
+    correctAnswer: "Health",
+  },
+  {
+    question: "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
+    answers: ["Republicanism", "Communism", "Conservatism", "Liberalism"],
+    correctAnswer: "Communism",
+  },
+  {
+    question: "Which toys have been marketed with the phrase “robots in disguise”?",
+    answers: ["Bratz Dolls", "Sylvanian Families", "Hatchimals", "Transformers"],
+    correctAnswer: "Transformers",
+  },
+  {
+    question: "Which Disney character famously leaves a glass slipper behind at a royal ball?",
+    answers: ["Pocahontas", "Sleeping Beauty", "Cinderella", "Elsa"],
+    correctAnswer: "Cinderella",
+  },
+  {
+    question: "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
+    answers: ["Hangar", "Terminal", "Concourse", "Carousel"],
+    correctAnswer: "Carousel",
+  },
+  {
+    question: "Which of these brands was chiefly associated with the manufacture of household locks?",
+    answers: ["Phillips", "Flymo", "Chubb", "Ronseal"],
+    correctAnswer: "Chubb",
+  },
+  {
+    question: "What does the word loquacious mean?",
+    answers: ["Angry", "Chatty", "Beautiful", "Shy"],
+    correctAnswer: "Chatty",
+  },
+  {
+    question: "Which of these religious observances lasts for the shortest period of time during the calendar year?",
+    answers: ["Ramadan", "Diwali", "Lent", "Hanukkah"],
+    correctAnswer: "Diwali",
+  },
+  {
+    question: "Obstetrics is a branch of medicine particularly concerned with what?",
+    answers: ["Childbirth", "Broken bones", "Heart conditions", "Old age"],
+    correctAnswer: "Childbirth",
+  },
+  {
+    question: "At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
+    answers: ["Bahamas", "US Virgin Islands", "Turks and Caicos Islands", "Bermuda"],
+    correctAnswer: "Bahamas",
+  },
+  {
+    question: "Which of these cetaceans is classified as a “toothed whale”?",
+    answers: ["Gray whale", "Minke whale", "Sperm whale", "Humpback whale"],
+    correctAnswer: "Sperm whale",
+  },
+  {
+    question: "Who is the only British politician to have held all four “Great Offices of State” at some point during their career?",
+    answers: ["David Lloyd George", "Harold Wilson", "James Callaghan", "John Major"],
+    correctAnswer: "James Callaghan",
+  },
+  {
+    question: "In 1718, which pirate died in battle off the coast of what is now North Carolina?",
+    answers: ["Calico Jack", "Blackbeard", "Bartholomew Roberts", "Captain Kidd"],
+    correctAnswer: "Blackbeard",
+  },
+  {
+    question: "In what children's game are participants chased by someone designated \"It\"?",
+    answers: ["Tag", "Simon Says", "Charades", "Hopscotch"],
+    correctAnswer: "Tag",
+  },
+  {
+    question: "On a radio, stations are changed by using what control?",
+    answers: ["Tuning", "Volume", "Bass", "Treble"],
+    correctAnswer: "Tuning",
+  },
+  {
+    question: "Which material is most dense?",
+    answers: ["Silver", "Styrofoam", "Butter", "Gold"],
+    correctAnswer: "Gold",
+  },
+  {
+    question: "Which state in the United States is largest by area?",
+    answers: ["Alaska", "California", "Texas", "Hawaii"],
+    correctAnswer: "Alaska",
+  },
+  {
+    question: "What is Aurora Borealis commonly known as?",
+    answers: ["Fairy Dust", "Northern Lights", "Book of ages", "a Game of Thrones main character"],
+    correctAnswer: "Northern Lights",
+  },
+  {
+    question: "Galileo was an Italian astronomer who",
+    answers: ["developed the telescope", "discovered four satellites of Jupiter", "discovered that the movement of pendulum produces a regular time measurement", "All of the above"],
+    correctAnswer: "All of the above",
+  },
+  {
+    question: "Exposure to sunlight helps a person improve his health because",
+    answers: ["the infrared light kills bacteria in the body", "resistance power increases", "the pigment cells in the skin get stimulated and produce a healthy tan", "the ultraviolet rays convert skin oil into Vitamin D"],
+    correctAnswer: "the ultraviolet rays convert skin oil into Vitamin D",
+  },
+  {
+    question: "Sir Thomas Fearnley Cup is awarded to",
+    answers: ["a club or a local sport association for remarkable achievements", "amateur athlete, not necessarily an Olympian", "National Olympic Committee for outstanding work", "None of the above"],
+    correctAnswer: "a club or a local sport association for remarkable achievements",
+  },
+  {
+    question: "Oscar Awards were instituted in",
+    answers: ["1968", "1929", "1901", "1965"],
+    correctAnswer: "1929",
+  },
+  {
+    question: "When did Margaret Thatcher became the first female Prime Minister of Britain?",
+    answers: ["1998", "1989", "1979", "1800"],
+    correctAnswer: "1979",
+  },
+  {
+    question: "When is the International Workers' Day?",
+    answers: ["15th April", "12th December", "1st May", "1st August"],
+    correctAnswer: "1st May",
+  },
+  {
+    question: "When did China test their first atomic device?",
+    answers: ["1962", "1963", "1964", "1965"],
+    correctAnswer: "1964",
+  },
+  {
+    question: "When did Commander Robert Peary discover the North Pole?",
+    answers: ["1904", "1905", "1908", "1909"],
+    correctAnswer: "1909",
+  },
+  {
+    question: "What is the population density of Kerala?",
+    answers: ["819/sq. km", "602/sq. km", "415/sq. km", "500/sq. km"],
+    correctAnswer: "819/sq. km",
+  },
+  {
+    question: "What is the range of missile 'Akash'?",
+    answers: ["4 km", "25 km", "500 m to 9 km", "150 km"],
+    correctAnswer: "25 km",
+  },
+  {
+    question: "In the U.S., if it's not Daylight Saving Time, it's what?",
+    answers: ["Borrowed time", "Overtime", "Standard time", "Party time"],
+    correctAnswer: "",
+  },
+  {
+    question: "Which part of the body are you most likely to \"stub\"?",
+    answers: ["Toe", "Knee", "Elbow", "Brain"],
+    correctAnswer: "Toe",
+  },
+  {
+    question: "Which country is largest by area?",
+    answers: ["UK", "USA", "Russia", "China"],
+    correctAnswer: "Russia",
+  },
+  {
+    question: "What does the \"F\" stand for in FBI?",
+    answers: ["Foreign", "Federal", "Flappy", "Face"],
+    correctAnswer: "",
+  },
+  {
+    question: "The US declared war on which country after the bombing of Pearl Harbor?",
+    answers: ["Japan", "Russia", "Germany", "China"],
+    correctAnswer: "Japan",
   },
 ];
 
@@ -178,7 +338,7 @@ function buttonClick(event) {
   ) {
     player.points++;
     score.innerHTML = player.points;
-    if (player.currentIndex === randomGame.length - 2) {
+    if (player.currentIndex === randomGame.length - 1) {
       highScoreSetter()
     player.highScore = localStorage.getItem("highScore") || 0
     highScoreText.innerHTML = player.highScore
@@ -231,3 +391,4 @@ function highScoreSetter(){
         localStorage.setItem("highScore", player.points)
     }
 }
+console.log(game.length)
