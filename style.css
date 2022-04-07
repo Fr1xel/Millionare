@@ -115,16 +115,24 @@ h2{
     display: block;
     background-color: rgb(25, 25, 155);
     border-radius: 1rem;
-    border: 0.2rem solid blue;
+    border: 0.2rem solid rgb(0, 0, 62);
     position: absolute;
-    padding: 5rem;
+    padding: 2rem;
     z-index: 4000;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction: column;
     animation-duration: 2s;
+    font-size:0.5rem;
     animation-name: zoom; 
+    width:50%;
+}
+.startover p{
+    font-size: 1.2rem;
+}
+.statement{
+    font-size: 2rem;
 }
 .startover button{
     background-color:rgb(42, 156, 194);
@@ -189,6 +197,9 @@ h2{
     p{
         font-size:1.5rem;
     }
+    .startover{
+        width:auto;
+    }
 }
 @media only screen and (min-width:1024px){
     .oboje{
@@ -206,5 +217,14 @@ h2{
     }
     .left{
         margin:0;
+    }
+    .startover p{
+        font-size: 2rem;
+    }
+    .startover{
+        font-size: 1rem;
+    }
+    .statement{
+        font-size:3rem;
     }
 }

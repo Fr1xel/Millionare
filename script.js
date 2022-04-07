@@ -408,8 +408,8 @@ const game = [
   {
     question:
       "What are the three primary colors?",
-    answers: ["Red, green, blue", "Magenta, pink, cyan", "Yellow, salmon, brown", "White, grey, black"],
-    correctAnswer: "Red, green, blue",
+    answers: ["Red, yellow, blue", "Magenta, pink, cyan", "Yellow, salmon, brown", "White, grey, black"],
+    correctAnswer: "Red, yellow, blue",
   },
   {
     question:
@@ -697,16 +697,9 @@ function backToNormal(box){
 
 function popUp() {
   timeText.style.display = "none";
-  dark.classList.remove("move");
   popup.classList.add("startover");
   dark.classList.add("darkness");
   timeLose.innerHTML = player.timeOverall;
-}
-function popUp2() {
-  timeText.style.display = "none";
-  popup2.classList.add("startover");
-  dark.classList.add("darkness");
-  timeWin.innerHTML = player.timeOverall;
 }
 
 function buttonClick(event) {
@@ -719,7 +712,9 @@ function buttonClick(event) {
       highScoreSetter();
       player.highScore = localStorage.getItem("highScore") || 0;
       highScoreText.innerHTML = player.highScore;
-      popUp2();
+      popUp();
+      dark.classList.remove("move");
+      timeWin.innerHTML = player.timeOverall;
       player.points = 0;
       score.innerHTML = player.points;
     }
@@ -768,5 +763,3 @@ function highScoreSetter() {
     localStorage.setItem("highScore", player.points);
   }
 }
-
-console.log(game.length)
