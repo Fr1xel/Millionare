@@ -773,16 +773,13 @@ function settingDifficulty(){
     player.currentIndex = 0
     player.tezina = "srednje"
     randomGame = game[player.tezina].sort(() => Math.random() - 0.5);
-    tezinaHolder.innerHTML = "Srednje"
+    tezinaHolder.innerHTML = "Medium"
 
   }
   else if(player.points === game.lagano.length + game.srednje.length){
     player.currentIndex = 0
     player.tezina = "tesko"
     randomGame = game[player.tezina].sort(() => Math.random() - 0.5);
-    tezinaHolder.innerHTML = "Teško"
+    tezinaHolder.innerHTML = "Hard"
   }
 }
-console.log(game.lagano.length)
-console.log(game.srednje.length)
-console.log(game.tesko.length)
